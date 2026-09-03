@@ -1,0 +1,19 @@
+# Dependencies
+/vendor/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local/test files
+test.php
+hash.php
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
