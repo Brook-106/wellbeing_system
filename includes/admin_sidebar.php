@@ -35,7 +35,11 @@ $currentPage = basename($_SERVER['PHP_SELF']);
         <i class="fa-solid fa-share-nodes"></i>
         Referrals
     </a>
-
+<a href="../admin/appointments.php"
+   class="<?= ($currentPage == 'appointments.php') ? 'active' : ''; ?>">
+    <i class="fa-solid fa-calendar-check"></i>
+    Appointments
+</a>
     <a href="../admin/departments.php"
        class="<?= ($currentPage == 'departments.php') ? 'active' : ''; ?>">
         <i class="fa-solid fa-building"></i>

@@ -25,6 +25,17 @@
         <i class="fa fa-user-graduate"></i>
         My Students
     </a>
+<a href="../mentor/appointments.php"
+   class="<?= basename($_SERVER['PHP_SELF'])=='appointments.php' ? 'active':''; ?>">
+    <i class="fa fa-calendar-check"></i>
+    Appointments
+</a>
+
+<a href="../mentor/observations.php"
+   class="<?= basename($_SERVER['PHP_SELF'])=='observations.php' ? 'active':''; ?>">
+    <i class="fa fa-eye"></i>
+    Observations
+</a>
 
     <a href="../mentor/create_referral.php"
        class="<?= basename($_SERVER['PHP_SELF'])=='create_referral.php' ? 'active':''; ?>">

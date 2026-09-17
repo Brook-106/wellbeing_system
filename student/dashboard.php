@@ -219,9 +219,10 @@ $recentAppointments = $stmt->fetchAll(PDO::FETCH_ASSOC);
 ========================================================= */
 
 include "../includes/header.php";
-if (file_exists("../includes/student_sidebar.php")) {\n    include "../includes/student_sidebar.php";\n}\n
+if (file_exists("../includes/student_sidebar.php")) {
+    include "../includes/student_sidebar.php";
+}
 ?>
-
 <div class="container-fluid">
 
     <!-- ================= PAGE HEADER ================= -->
